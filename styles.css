@@ -9,7 +9,7 @@ body {
 
 /* Background Wallpaper */
 body {
-    background-image: url(../assets/background.jpg); /* Replace with your image path */
+    background-image: url('../assets/background.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
