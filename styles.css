@@ -133,7 +133,7 @@ section {
     padding: 20px;
     border-radius: 10px;
     width: 70%;
-    max-width: 250px;
+    max-width: 300px;
     height: 550px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
