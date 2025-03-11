@@ -93,6 +93,22 @@ section {
     color: inherit; /* Use inherit to apply body color */
 }
 
+.download-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+
 /* About Section */
 #about {
     display: flex;
