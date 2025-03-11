@@ -36,24 +36,19 @@ header {
     background-color: transparent;
     padding: 30px 0;
     text-align: center;
-    color: #000;
     font-size: 1.1em;
-}
-
-header.dark-mode {
-    color: #ffffff; /* Ensure header text turns white in dark mode */
 }
 
 header h1 {
     margin: 10px 0;
     font-size: 5.0em;
-    color: inherit; /* Use inherit to apply body color */
+    color: inherit;
 }
 
 header p {
     margin: 5px 0 20px;
     font-size: 3.0em;
-    color: inherit; /* Use inherit to apply body color */
+    color: inherit;
 }
 
 /* Navigation Styles */
@@ -71,7 +66,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: inherit; /* Use inherit to apply body color */
+    color: inherit;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -90,24 +85,7 @@ nav.dark-mode ul li a:hover {
 section {
     padding: 10px 0;
     text-align: center;
-    color: inherit; /* Use inherit to apply body color */
 }
-
-.download-btn {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.download-btn:hover {
-    background-color: #0056b3;
-}
-
 
 /* About Section */
 #about {
@@ -118,7 +96,7 @@ section {
 }
 
 #about img {
-    width: 350px; 
+    width: 350px;
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
@@ -131,7 +109,7 @@ section {
     border: 4px solid #ffffff;
 }
 
-/* Experience & Projects Sections */
+/* Projects Section */
 .projects-grid {
     display: flex;
     flex-wrap: wrap;
@@ -142,23 +120,22 @@ section {
 .project-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    align-items: flex-start;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
-    width: 70%;
-    max-width: 300px;
-    height: 450px;
+    width: 90%;
+    max-width: 350px;
+    height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
 
 .project-card.dark-mode {
-    background-color: #000; /* Change to solid black */
-    color: #ffffff; /* Ensure text is white */
+    background-color: #000;
+    color: #ffffff;
 }
 
 .project-card img {
@@ -168,8 +145,33 @@ section {
     border-radius: 10px;
 }
 
-.project-card h3, .project-card p {
-    color: inherit; /* Use inherit to apply body color */
+.project-card h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Experience Section */
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.experience-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Skills Section */
@@ -181,7 +183,6 @@ section {
 #skills ul li {
     font-size: 1.1em;
     margin: 5px 0;
-    color: inherit; /* Use inherit to apply body color */
 }
 
 /* Contact Section */
@@ -211,16 +212,12 @@ section {
     border-radius: 50%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     cursor: pointer;
-    display: none; /* Hidden by default */
+    display: none;
     transition: opacity 0.3s, transform 0.3s;
 }
 
 #backToTop.dark-mode {
     box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.3);
-}
-
-#backToTop:hover {
-    background-color: #1e88e5;
 }
 
 #backToTop.show {
@@ -234,7 +231,6 @@ footer {
     padding: 20px 0;
     margin-top: 40px;
     font-size: 0.9em;
-    color: inherit; /* Use inherit to apply body color */
 }
 
 /* Theme Toggle Button */
@@ -301,32 +297,4 @@ body.dark-mode .theme-toggle-label {
 body.dark-mode .theme-toggle-label::after {
     left: calc(100% - 25px);
     background-color: #fff;
-}
-
-body.dark-mode .theme-icon-sun {
-    opacity: 0; /* Hide sun icon in dark mode */
-}
-
-body.dark-mode .theme-icon-moon {
-    opacity: 1; /* Show moon icon in dark mode */
-}
-
-.theme-toggle-checkbox:checked + .theme-toggle-label::after {
-    left: calc(100% - 25px);
-}
-
-.theme-toggle-checkbox:checked + .theme-toggle-label .theme-icon-sun {
-    opacity: 0;
-}
-
-.theme-toggle-checkbox:checked + .theme-toggle-label .theme-icon-moon {
-    opacity: 1;
-}
-
-.theme-toggle-checkbox:not(:checked) + .theme-toggle-label .theme-icon-sun {
-    opacity: 1;
-}
-
-.theme-toggle-checkbox:not(:checked) + .theme-toggle-label .theme-icon-moon {
-    opacity: 0;
 }
