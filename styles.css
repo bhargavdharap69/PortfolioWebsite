@@ -133,7 +133,7 @@ section {
 
 /* Experience & Projects Sections */
 .projects-grid {
-    display: Fit;
+    display: Flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
