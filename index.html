@@ -1,147 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhargav H. Dharap | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/jpeg" href="assets/Favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhargav Dharap | Portfolio</title>
+  <link rel="icon" type="image/png" href="Photos/Favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
-<button id="backToTop" title="Go to top">↑</button>
 <body>
-    <header>
-        <div class="container">
-            <h1>Bhargav H. Dharap</h1>
-            <p>Finance and Data Enthusiast</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- Dark Mode Toggle Button -->
-            <div class="theme-toggle-wrapper">
-                <input type="checkbox" id="themeToggle" class="theme-toggle-checkbox">
-                <label for="themeToggle" class="theme-toggle-label">
-                    <span class="theme-icon theme-icon-sun">☾</span>
-                    <span class="theme-icon theme-icon-moon">𖤓</span>
-                </label>
-            </div>
-        </div>
-    </header>
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="logo">Bhargav Dharap</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <img src="assets/Profile Photo.jpg" alt="Bhargav H. Dharap">
-        <p>I am a results-driven engineering undergraduate with a passion for finance, business strategy, and data analytics.
-            Experienced in financial modeling, investment research, market analysis, and business development. Proficient in data-driven decision-making, corporate finance, and quantitative research, with a strong foundation in
-            financial forecasting, risk assessment, and strategic planning. Adept at leveraging data visualization and
-            predictive analytics using MS Excel (VBA), SQL, Power BI, Tableau, and Python. Recognized for strong
-            leadership, analytical problem-solving, and process optimization. Ranked 9th in IIM Raipur’s National
-            Case Study Competition.</p>
-    </section>
-    
-<section id="resume" class="container">
-    <h2>Resume</h2>
-    <p>Click below to download my resume.</p>
-    <a href="assets/Resume_Bhargav_2025.pdf" download="Resume_Bhargav_2025.pdf" class="download-btn">
-        Download Resume
-    </a>
-</section>
+ <div class="nav-actions">
+  <a href="Bhargav_Dharap_Resume.pdf" class="resume-btn" target="_blank">Resume</a>
+<div class="social-icons">
+  <a href="https://www.linkedin.com/in/bhargav-dharap-ba783b1b4/" target="_blank">
+    <img src="Photos/linkedin.png" class="social-light" alt="LinkedIn" />
+    <img src="Photos/linkedindark.png" class="social-dark" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/bhargavd21/?__pwa=1#" target="_blank">
+    <img src="Photos/instagram.svg" class="social-light" alt="Instagram" />
+    <img src="Photos/instagramdark.png" class="social-dark" alt="Instagram" />
+  </a>
+  <a href="https://twitter.com/bhargavdharap" target="_blank">
+    <img src="Photos/twitter.png" class="social-light" alt="Twitter" />
+    <img src="Photos/twitterdark.png" class="social-dark" alt="Twitter" />
+  </a>
+</div>
 
-    <section id="experience" class="container">
-    <h2>Experience</h2>
-    <div class="projects-grid">
-        <div class="project-card" data-link="https://drive.google.com/file/d/1RkiEVHMqGwt_N-3ZTiAY4nusVmdGZpOq/view?usp=drive_link">
-            <img src="assets/SPJIMR.jpg" alt="SPJIMR Internship">
-            <h3>Research Intern at SPJIMR</h3>
-            <p>– Conducted quantitative and qualitative research on 300+ gig workers in Mumbai, analyzing labor conditions,
-                financial stability, and governance structures.<br>
-                – Performed statistical analysis using Cronbach’s alpha, correlation coefficients, and regression modeling to
-                extract actionable insights.<br>
-                – Utilized Qualtrics, MS Excel (Pivot Tables, Macros), and Python to conduct in-depth data processing, contributing to an upcoming newspaper publication.</p>
-        </div>
-        <div class="project-card" data-link="https://drive.google.com/drive/folders/1-4ECs-L-a8zJEcs_jIUQTSqYmxDZ9WiQ?usp=drive_link">
-            <img src="assets/Scrapitt.png" alt="Scrapitt Internship">
-            <h3>Business Manager Intern at Scrapitt</h3>
-            <p>– Led a 35-member team, managing cross-functional collaboration to implement market penetration strategies.<br>
-                – Increased app engagement by 20% through on-campus PR campaigns, digital marketing, and social media
-                outreach.<br>
-                – Developed and executed growth strategies to address low conversion rates and team efficiency, resulting in a
-                15% reduction in operational issues.</p>
-        </div>
-        <div class="project-card" data-link="https://drive.google.com/drive/folders/18SIPyvYaORh6tFb1aD1zpHOEMIRaFwAL?usp=drive_link">
-            <img src="assets/Peershala.jpeg" alt="Peershala Internship">
-            <h3>Business Development Intern at Peershala</h3>
-            <p>– Partnered with 10+ educational institutions, increasing the user base by 15% through targeted outreach and
-                relationship-building.<br>
-                – Conducted 5+ product demos and webinars, improving adoption rates by 10%.<br>
-                – Analyzed market trends, competitive landscape, and user engagement to develop data-driven sales strategies.</p>
-        </div>
+
+  <button id="theme-toggle" class="theme-btn" title="Toggle theme">🌙</button>
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+</div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="hero-left">
+      <h3>Hi! Myself</h3>
+      <h1>Bhargav Dharap</h1>
+      <p>
+        I am a results-driven engineering undergraduate with a passion for finance, business strategy, and data analytics. Experienced in financial modeling, investment research, market analysis, and business development. Proficient in data-driven decision-making, corporate finance, and quantitative research.
+      </p>
+      <div class="socials">
+        <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      </div>
     </div>
-</section>
-
-<section id="projects" class="container">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card" data-link="https://drive.google.com/drive/folders/1QhvmLPOX0yilhuZ9NHMyoOxf7oRHGRi_?usp=drive_link">
-            <img src="assets/Colgate Palamolive.jpg" alt="DCF Valuation - Colgate">
-            <h3>DCF Valuation – Colgate</h3>
-            <p>– Developed detailed DCF valuation models (2021, 2023) using WACC (4.44% - 5.33%), forecasting financial
-                performance.<br>
-                – Conducted 5-year financial projections, leveraging intrinsic valuation techniques and fundamental analysis.</p>
-        </div>
-        <div class="project-card" data-link="https://drive.google.com/file/d/1iqsuH8M604Nzq8gqYPWGTa7xewv79hpm/view?usp=drive_link">
-            <img src="assets/Julius Baer.jpg" alt="Julius Baer Financial Report">
-            <h3>Julius Baer Financial Report</h3>
-            <p>– Analyzed key financial metrics (revenue, operating income, EPS, return on equity) from 2018–2023.<br>
-                – Evaluated the impact of macroeconomic trends, regulatory challenges, and investment risks on bank performance.<br>
-                – Assessed the Signa Real Estate scandal’s effect on profitability, resulting in a 52% profit decline and a 15%
-                drop in share price.<br>
-                – Built financial forecasting models, providing data-driven investment recommendations.</p>
-        </div>
-        <div class="project-card" data-link="https://drive.google.com/drive/folders/11TaE8UsvyGpZtSc0WZdd6V37b7Jfbc56?usp=drive_link">
-            <img src="assets/Data-Analytics-.jpg" alt="Data Visualization Dashboards">
-            <h3>Data Visualization Dashboards</h3>
-            <p>– Power BI, Tableau: Built interactive dashboards analyzing Netflix titles, mobile stock levels, superstore sales
-                trends, and Coca-Cola product performance.<br>
-                – SQL: Executed complex queries, joins, and indexing strategies, optimizing data retrieval and reporting
-                workflows.</p>
-        </div>
+    <div class="hero-right">
+      <img src="Photos/Bhargav_Photo.png" alt="Bhargav Dharap" />
     </div>
-</section>
+  </section>
 
+<!-- ===== Experience ===== -->
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <div class="experience-list">
 
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <p>Finance Modeling | Data Analysis | Python | SQL | Power BI | Tableau | MS Excel (VBA) | Risk Assessment | Business Strategy | Financial Forecasting</p>
-        <h2>Certifications</h2>
+    <!-- SPJIMR -->
+    <a href="docs/SPJIMR_OfferLetter.pdf" class="experience-card" target="_blank">
+      <div class="exp-image">
+        <img src="Photos/SPJIMR.jpg" alt="SPJIMR Internship" />
+      </div>
+      <div class="exp-content">
+        <h3>Research Intern – SPJIMR</h3>
         <ul>
-            <li>Corporate Finance Institute – Corporate Finance Fundamentals</li>
-            <li>Ernst & Young – PL-300 Microsoft Power BI Data Analyst</li>
-            <li>Udemy – Financial Modeling, Valuation, and Bond Markets</li>
+          <li>Conducted quantitative and qualitative research on 300+ gig workers in Mumbai, analyzing labor conditions, financial stability, and governance structures.</li>
+          <li>Performed statistical analysis using Cronbach's alpha, correlation coefficients, and regression modeling to extract actionable insights.</li>
+          <li>Utilized Qualtrics, MS Excel (Pivot Tables, Macros), and Python for data processing, contributing to a newspaper publication.</li>
         </ul>
-    </section>
+      </div>
+    </a>
 
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:bhargavdharap69@gmail.com">bhargavdharap69@gmail.com</a></p>
-        <p>Phone: <a>+919372662990</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/bhargav-dharap" target="_blank">linkedin.com/in/bhargav-dharap</a></p>
-    </section>
+    <!-- Scrapitt -->
+    <a href="docs/Scrapitt_OfferLetter.pdf" class="experience-card" target="_blank">
+      <div class="exp-image">
+        <img src="Photos/Scrapitt.png" alt="Scrapitt Internship" />
+      </div>
+      <div class="exp-content">
+        <h3>Business Manager Intern – Scrapitt</h3>
+        <ul>
+          <li>Led a 35-member team, managing cross-functional collaboration for market penetration strategies.</li>
+          <li>Increased app engagement by 20% through PR campaigns, digital marketing, and social media outreach.</li>
+          <li>Developed and executed growth strategies, reducing operational issues by 15%.</li>
+        </ul>
+      </div>
+    </a>
 
-    <footer>
-        <div class="container">
-            <p> 2025 Bhargav H. Dharap</p>
-        </div>
-    </footer>
+    <!-- Peershala -->
+    <a href="docs/Peershala_OfferLetter.pdf" class="experience-card" target="_blank">
+      <div class="exp-image">
+        <img src="Photos/Peershala.jpeg" alt="Peershala Internship" />
+      </div>
+      <div class="exp-content">
+        <h3>Business Development Intern – Peershala</h3>
+        <ul>
+          <li>Partnered with 10+ educational institutions, increasing user base by 15% through targeted outreach.</li>
+          <li>Conducted product demos and webinars, improving adoption rates by 10%.</li>
+          <li>Analyzed market trends and user engagement to develop data-driven sales strategies.</li>
+        </ul>
+      </div>
+    </a>
 
-    <script src="script.js"></script>
+  </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="project-list">
+
+    <!-- DCF Valuation - Colgate -->
+    <a href="#" class="project-card" target="_blank">
+      <div class="proj-image">
+        <img src="Photos/Colgate Palamolive.jpg" alt="DCF Valuation - Colgate" />
+      </div>
+      <div class="proj-content">
+        <h3>DCF Valuation – Colgate</h3>
+        <ul>
+          <li>Developed detailed DCF valuation models (2021, 2023) using WACC (4.44%–5.33%) to forecast financial performance.</li>
+          <li>Performed 5-year financial projections leveraging intrinsic valuation and fundamental analysis.</li>
+        </ul>
+      </div>
+    </a>
+
+    <!-- Julius Baer Financial Report -->
+    <a href="#" class="project-card" target="_blank">
+      <div class="proj-image">
+        <img src="Photos/Julius Baer.jpg" alt="Julius Baer Financial Report" />
+      </div>
+      <div class="proj-content">
+        <h3>Julius Baer Financial Report</h3>
+        <ul>
+          <li>Analyzed key financial metrics (revenue, operating income, EPS, ROE) from 2018–2023.</li>
+          <li>Evaluated macroeconomic and regulatory impacts, including the Signa Real Estate scandal causing a 52% profit drop.</li>
+          <li>Built financial forecasting models to support data-driven investment recommendations.</li>
+        </ul>
+      </div>
+    </a>
+
+    <!-- Data Visualization Dashboards -->
+    <a href="#" class="project-card" target="_blank">
+      <div class="proj-image">
+        <img src="Photos/Data-Analytics-.jpg" alt="Data Visualization Dashboards" />
+      </div>
+      <div class="proj-content">
+        <h3>Data Visualization Dashboards</h3>
+        <ul>
+          <li>Developed Power BI and Tableau dashboards analyzing Netflix titles, superstore sales, and Coca-Cola performance.</li>
+          <li>Executed complex SQL queries with joins and indexing to optimize data retrieval and reporting workflows.</li>
+        </ul>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Business Analysis</li>
+      <li>Power BI</li>
+      <li>Excel & VBA</li>
+      <li>SQL</li>
+      <li>Financial Modeling</li>
+    </ul>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+ <form class="contact-form" action="https://formspree.io/f/xpwopkyl" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+  </section>
+
+  <footer>
+    <p>© 2025 Bhargav Dharap. All rights reserved.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a2e0e9d6d7.js" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
